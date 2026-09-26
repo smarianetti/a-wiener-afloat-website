@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | A Wiener Afloat</title>
+    <meta
+      name="description"
+      content="Get in touch about A Wiener Afloat, book orders, or general inquiries."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">A</span>
+          Wiener Afloat
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="book.html">Book</a>
+          <a href="contact.html" class="active">Contact</a>
+          <a href="book.html#buy" class="button small-button">Coming soon</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero compact-hero">
+        <div class="container">
+          <p class="eyebrow">Contact</p>
+          <h1>Say hello</h1>
+        </div>
+      </section>
+
+      <section class="section-wrap">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <h2>Let’s connect</h2>
+            <p>
+              We’d love to hear from readers, families, educators, and book lovers. Use the form to
+              send a message or ask a question.
+            </p>
+
+            <div class="contact-details">
+              <p><strong>Email:</strong> hello@awienerafloat.com</p>
+              <p><strong>Instagram:</strong> @awienerafloat</p>
+              <p><strong>Location:</strong> Inspired by the Sea of Cortez</p>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <label>
+              Your name
+              <input type="text" name="name" placeholder="Enter your full name" required />
+            </label>
+
+            <label>
+              Email address
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+
+            <label>
+              Subject
+              <input type="text" name="subject" placeholder="How can we help?" required />
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell us a little more..." required></textarea>
+            </label>
+
+            <button type="submit" class="button primary-button">Send message</button>
+
+            <p id="formMessage" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section-wrap neutral-section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow dark">FAQ</p>
+            <h2>Common questions</h2>
+          </div>
+
+          <div class="faq-list">
+            <div class="faq-item">
+              <h3>Is this book suitable for children?</h3>
+              <p>Yes — it is designed for young readers and families who enjoy gentle, imaginative stories.</p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Is the story based on a real dog?</h3>
+              <p>Yes. Scooby is inspired by a real dachshund who lived aboard a sailboat and explored the Sea of Cortez.</p>
+            </div>
+
+            <div class="faq-item">
+              <h3>When will the ebook launch?</h3>
+              <p>The ebook is coming soon, and updates will be shared here and through the contact form.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2025 A Wiener Afloat | Samantha Terry</p>
+      </div>
+    </footer>
+  </body>
+</html>

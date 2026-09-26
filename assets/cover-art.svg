@@ -1,0 +1,47 @@
+<svg width="1200" height="1600" viewBox="0 0 1200 1600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f4e0af"/>
+      <stop offset="100%" stop-color="#dfc691"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#5e9fc1"/>
+      <stop offset="100%" stop-color="#2c6d8d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <rect y="1100" width="1200" height="500" fill="url(#water)"/>
+  <circle cx="960" cy="240" r="150" fill="#f7f0d2" opacity="0.8"/>
+  <path d="M0 1080 C 220 980, 420 980, 600 1080 S 1000 1180, 1200 1080 L1200 1600 L0 1600 Z" fill="#5ea8be" opacity="0.8"/>
+
+  <g transform="translate(180 190)">
+    <rect x="0" y="0" width="840" height="1040" rx="28" fill="#fffaf0" opacity="0.7" />
+    <path d="M160 300 L520 150 L620 300 L650 840 L160 840 Z" fill="#d9a75b" opacity="0.75"/>
+    <path d="M180 300 L500 100 L540 300 Z" fill="#b37d36"/>
+    <path d="M220 860 L520 600 L660 860 Z" fill="#8ca7b5" opacity="0.8"/>
+    <circle cx="475" cy="560" r="148" fill="#e4c17a"/>
+    <circle cx="475" cy="560" r="120" fill="#f0d79f"/>
+    <circle cx="425" cy="510" r="26" fill="#1e2b35"/>
+    <circle cx="535" cy="510" r="26" fill="#1e2b35"/>
+    <path d="M420 600 Q475 640 530 600" fill="none" stroke="#1e2b35" stroke-width="10" stroke-linecap="round"/>
+    <path d="M340 720 L280 870" stroke="#1e2b35" stroke-width="18" stroke-linecap="round"/>
+    <path d="M610 720 L670 870" stroke="#1e2b35" stroke-width="18" stroke-linecap="round"/>
+    <path d="M310 780 L255 910" stroke="#1e2b35" stroke-width="18" stroke-linecap="round"/>
+    <path d="M640 780 L695 910" stroke="#1e2b35" stroke-width="18" stroke-linecap="round"/>
+    <path d="M470 700 L510 860" stroke="#1e2b35" stroke-width="18" stroke-linecap="round"/>
+    <path d="M470 700 L430 860" stroke="#1e2b35" stroke-width="18" stroke-linecap="round"/>
+
+    <path d="M170 930 C 300 980, 430 1000, 560 980 C 660 964, 740 920, 820 850 L820 1050 L170 1050 Z" fill="#4c7d9a"/>
+    <text x="420" y="1210" text-anchor="middle" font-size="92" font-family="Georgia, serif" fill="#10314d" font-weight="700">
+      A Wiener
+    </text>
+    <text x="420" y="1315" text-anchor="middle" font-size="86" font-family="Georgia, serif" fill="#10314d" font-weight="700">
+      Afloat
+    </text>
+  </g>
+
+  <text x="600" y="1510" text-anchor="middle" font-size="42" font-family="Arial, sans-serif" fill="#10314d" letter-spacing="12">
+    SCOOBY THE SAILING DACHSHUND
+  </text>
+</svg>
